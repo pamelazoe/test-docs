@@ -2,7 +2,7 @@ language: node_js
 
 node_js: – 16.0.0
 
-script: cd docs && vercel --prod --token $TRAVIS_CI
+script: cd docs && vercel --prod --token $TRAVIS_TEST
 
 before_script:
   - echo before script
